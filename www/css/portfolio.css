@@ -1,0 +1,32 @@
+/*
+    Portfolio stylesheet.
+
+    Date: 22/03/2020
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+}
+
+#contact, a:link, a:visited {
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#contact .fa-twitter {
+    color: #55acee;
+}
+
+#contact .fa-linkedin {
+    color: #2867b2;
+}
