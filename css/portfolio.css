@@ -1,8 +1,13 @@
 /*
     Portfolio stylesheet.
 
-    Date: 22/03/2020
+    Date: 10/06/2023
 */
+
+:root {
+    background-color: hsl(200, 7%, 8%);
+    color: hsl(230, 100%, 100%);
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -11,7 +16,7 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
+    margin-top: -200px;
     margin-left: -250px;
 }
 
@@ -20,13 +25,6 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
-    color: #000000;
+    color: hsl(230, 30%, 50%);
 }
 
-#contact .fa-twitter {
-    color: #55acee;
-}
-
-#contact .fa-linkedin {
-    color: #2867b2;
-}
