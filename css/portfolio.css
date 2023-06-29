@@ -1,7 +1,7 @@
 /*
     Portfolio stylesheet.
 
-    Date: 10/06/2023
+    Date: 29/06/2023
 */
 
 :root {
@@ -16,11 +16,11 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -200px;
-    margin-left: -250px;
+    margin-top: -350px;
+    margin-left: -230px;
 }
 
-#contact, a:link, a:visited {
+#contact > a:link, a:visited {
     font-size: 2rem;
     margin-left: 10px;
     margin-right: 10px;
